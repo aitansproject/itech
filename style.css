@@ -2,18 +2,23 @@ body {
   font-family: "Dosis", sans-serif;
   font-weight: 500;
 }
-body .imgbox {
+
+.imgbox {
   overflow: hidden;
 }
-body .imgbox img {
+.imgbox img {
   width: 100%;
+}
+
+section {
+  padding: 60px 0;
 }
 
 #group {
   background-image: url("assets/itechgroup.jpg");
   background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
+  background-repeat: repeat;
   padding: 26vh;
 }
 #group h1 {
@@ -39,7 +44,7 @@ body .imgbox img {
   height: 166px;
   border: 3px solid #ffb100;
   font-size: 30px;
-  color: rgba(0, 0, 0, 0);
+  color: rgba(123, 155, 116, 0);
   margin: 38px;
   background-color: white;
 }/*# sourceMappingURL=style.css.map */

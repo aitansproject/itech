@@ -2,19 +2,19 @@
 $(document).ready(function () {
 
 
-
     $('.btn').click(function (e) {
         e.preventDefault();
         if ($.trim($('input').val()) == '') {
             $('input').val();
         } else {
-            let k = v => {
-                for (let i = 0; i < v; i++) { $('.minibox').append(`<h3>${v}</h3>`) };
+            let n = c => {
+                for (let i=0; i<c; i++) { $('.minibox').append(`<h3>${a}</h3>`) };
             }
-            let z = e => Number(e) ? k(e) : $('.minibox').append(`<h3>${e}</h3>`);
-            z($('input').val());
+            let m = e => Number(e) ? n(e) : $('.minibox').append(`<h1>${e}</h3>`);
+            m($.trim($('input').val()));
         }
-        $('input').val('')
-    })
+        $('input').val('') 
+    });
+
 
 });
