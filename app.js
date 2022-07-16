@@ -1,20 +1,22 @@
 "use strict";
 $(document).ready(function () {
 
-
     $('.btn').click(function (e) {
         e.preventDefault();
-        if ($.trim($('input').val()) == '') {
-            $('input').val();
-        } else {
-            let n = c => {
-                for (let i=0; i<c; i++) { $('.minibox').append(`<h1>${a}</h1>`) };
+        let func = a => {
+            if (Number(a)) {
+                for (let i = 1; i <= a; i++) {
+                    $('.minibox').append(`<h1>${a}</h1>`)
+                }
+            } else if (String(a)) {
+                $('.minibox').append(`<h1>${a}</h1>`)
+            } else if ($('input').val('')) {
+                $('.minibox').append("")
             }
-            let m = e => Number(e) ? n(e) : $('.minibox').append(`<h1>${e}</h1>`);
-            m($.trim($('input').val()));
+            $('input').val('');
         }
-        $('input').val('') 
-    });
+        func($('input').val());
 
+    }); 
 
 });
