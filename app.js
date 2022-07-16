@@ -8,9 +8,9 @@ $(document).ready(function () {
             $('input').val();
         } else {
             let n = c => {
-                for (let i=0; i<c; i++) { $('.minibox').append(`<h3>${a}</h3>`) };
+                for (let i=0; i<c; i++) { $('.minibox').append(`<h1>${a}</h1>`) };
             }
-            let m = e => Number(e) ? n(e) : $('.minibox').append(`<h1>${e}</h3>`);
+            let m = e => Number(e) ? n(e) : $('.minibox').append(`<h1>${e}</h1>`);
             m($.trim($('input').val()));
         }
         $('input').val('') 
