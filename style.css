@@ -9,35 +9,34 @@ body .imgbox img {
   width: 100%;
 }
 
-section {
-  padding: 100px 0;
-}
-
 #group {
-  background-image: url("assets/itech.jpeg");
+  background-image: url("assets/itechgroup.jpg");
   background-size: cover;
-  padding: 33vh;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 26vh;
 }
 #group h1 {
   font-weight: 700;
   font-size: 55px;
-  margin: 30px 0 0 0;
+  margin: 0 0 35px 0;
   color: white;
 }
 #group input {
   border: 3px solid #ffb100;
-  margin: 31px 0 31px 0;
+  margin: 20px 0 31px 0;
   height: 44px;
   display: block;
 }
 #group .btn {
-  background-color: #2cc452;
+  background-color: #9251ce;
   margin-left: 87px;
   color: white;
   width: 85px;
 }
 #group .minibox h3 {
-  width: 280px;
+  width: 398px;
+  height: 166px;
   border: 3px solid #ffb100;
   font-size: 30px;
   color: rgba(0, 0, 0, 0);
