@@ -1,20 +1,5 @@
-body {
-  font-family: "Dosis", sans-serif;
-  font-weight: 500;
-}
-body .imgbox {
-  overflow: hidden;
-}
-body .imgbox img {
-  width: 100%;
-}
-
-section {
-  padding: 100px 0;
-}
-
 #group {
-  background-image: url("assets/itech.jpeg");
+  background-image: url("assets/itechgroup.jpg");
   background-size: cover;
   padding: 33vh;
 }
@@ -31,7 +16,7 @@ section {
   display: block;
 }
 #group .btn {
-  background-color: #2cc452;
+  background-color: #9251ce;
   margin-left: 87px;
   color: white;
   width: 85px;
@@ -43,4 +28,4 @@ section {
   color: rgba(0, 0, 0, 0);
   margin: 38px;
   background-color: white;
-}/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=group.css.map */
