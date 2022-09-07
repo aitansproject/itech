@@ -4,30 +4,30 @@ body {
 }
 
 #group {
-  background-color: #e3b7e5;
+  background-color: #e1d2e1;
   min-height: 100vh;
 }
 #group .box h1 {
   font-size: 90px;
   font-weight: 700;
   margin: 120px 0 80px 20px;
-  color: #8d25a7;
+  color: #072b81;
 }
 #group .box input {
   width: 325px;
   height: 66px;
-  margin: 15px 0 50px 0;
+  margin: 7px 0 50px 0;
   font-size: 20px;
-  border-radius: 20px;
+  border-radius: 10px;
+  border: none;
   border: 5px solid white;
 }
 #group .box .btn {
   background-color: #ffffff;
-  border: 2px solid #b035c1;
+  border: 2px solid #072b81;
   width: 85px;
   font-size: 20px;
   padding: 9px;
-  margin: 5px 3px 62px 110px;
 }
 #group .box .btn:hover {
   background-color: #ebe187;
@@ -35,7 +35,7 @@ body {
 }
 #group .box .minibox {
   width: 245px;
-  margin: 28px 35px;
+  margin: 50px 35px;
   background-color: #ffffff;
 }
 #group .box .minibox h3 {
